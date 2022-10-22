@@ -15,19 +15,29 @@ namespace MyRecipe
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.IsEnvironment("Development"))
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
+            app.UseStaticFiles();
+            // app.Run(async (context) =>
+            // {
+            //     string nome = context.Request.Query["nome"];
+            //     await context.Response.WriteAsync($"Hello {nome}!");
+            // });
+
+            //app.UseMvcWithDefaultRoute();
+            //recipes/detail/5 cerca un controller chiamato RecipeController e dentro essa un metodo chiamato detail e assegna id 5 (la richiesta è ignorecase)
+            //il path di default è miosito.it/Home/Index/(id opzionale). Questo è equivalmente a mvcWithDefaultRoute
+            app.UseMvc(routeBuilder => {
+                routeBuilder.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
