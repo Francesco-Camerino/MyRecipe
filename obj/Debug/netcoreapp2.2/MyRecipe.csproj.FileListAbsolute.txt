@@ -1,0 +1,14 @@
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\bin\Debug\netcoreapp2.2\MyRecipe.deps.json
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\bin\Debug\netcoreapp2.2\MyRecipe.runtimeconfig.json
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\bin\Debug\netcoreapp2.2\MyRecipe.runtimeconfig.dev.json
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\bin\Debug\netcoreapp2.2\MyRecipe.dll
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\bin\Debug\netcoreapp2.2\MyRecipe.pdb
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.csprojAssemblyReference.cache
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.csproj.CoreCompileInputs.cache
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.RazorAssemblyInfo.cache
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.RazorAssemblyInfo.cs
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.AssemblyInfoInputs.cache
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.AssemblyInfo.cs
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.RazorTargetAssemblyInfo.cache
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.dll
+C:\Users\39388\Desktop\FRANCESCO\Studio\udemy\dotnet\ASP.NET\FrancescoCourse\MyRecipe\obj\Debug\netcoreapp2.2\MyRecipe.pdb
