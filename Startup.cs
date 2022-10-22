@@ -37,6 +37,7 @@ namespace MyRecipe
             //app.UseMvcWithDefaultRoute();
             //recipes/detail/5 cerca un controller chiamato RecipeController e dentro essa un metodo chiamato detail e assegna id 5 (la richiesta è ignorecase)
             //il path di default è miosito.it/Home/Index/(id opzionale). Questo è equivalmente a mvcWithDefaultRoute
+            //commento a caso
             app.UseMvc(routeBuilder => {
                 routeBuilder.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
             });
