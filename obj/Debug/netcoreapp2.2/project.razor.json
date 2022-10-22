@@ -132,7 +132,7 @@
             "Kind": "ITagHelper",
             "Name": "asp-area",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Metadata": {
               "Common.PropertyName": "Area"
             }
@@ -141,7 +141,7 @@
             "Kind": "ITagHelper",
             "Name": "asp-page",
             "TypeName": "System.String",
-            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Area\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            is non-<c>null</c>.\n            </remarks>\n        ",
             "Metadata": {
               "Common.PropertyName": "Page"
             }
@@ -209,7 +209,7 @@
         }
       },
       {
-        "HashCode": 764691732,
+        "HashCode": -502461272,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -286,6 +286,15 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "expires-on",
             "TypeName": "System.DateTimeOffset?",
             "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
@@ -327,7 +336,7 @@
         }
       },
       {
-        "HashCode": -1707921905,
+        "HashCode": -1307015224,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -409,6 +418,15 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "vary-by-culture",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "VaryByCulture"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "expires-on",
             "TypeName": "System.DateTimeOffset?",
             "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
@@ -450,7 +468,7 @@
         }
       },
       {
-        "HashCode": -1363284850,
+        "HashCode": 154889074,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -496,7 +514,7 @@
         }
       },
       {
-        "HashCode": 1417516210,
+        "HashCode": -521303539,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -913,7 +931,7 @@
         }
       },
       {
-        "HashCode": 2044702143,
+        "HashCode": -2020817536,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1015,7 +1033,7 @@
         }
       },
       {
-        "HashCode": 1173987047,
+        "HashCode": 693007598,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1061,7 +1079,7 @@
         }
       },
       {
-        "HashCode": -2165669,
+        "HashCode": -221705243,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1131,7 +1149,7 @@
         }
       },
       {
-        "HashCode": -1547997375,
+        "HashCode": -616353808,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1164,7 +1182,7 @@
         }
       },
       {
-        "HashCode": 1881961214,
+        "HashCode": 29119646,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1292,6 +1310,15 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-suppress-fallback-integrity",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper.FallbackHref\" /> value.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-append-version",
             "TypeName": "System.Boolean?",
             "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to the href urls.\n            </summary>\n            <remarks>\n            If <c>true</c> then a query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
@@ -1351,7 +1378,7 @@
         }
       },
       {
-        "HashCode": -963815393,
+        "HashCode": -186821328,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1379,7 +1406,7 @@
         }
       },
       {
-        "HashCode": -1576787534,
+        "HashCode": 1309971616,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1426,6 +1453,24 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "optional",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            When optional, executing the tag helper will no-op if the view cannot be located. \n            Otherwise will throw stating the view could not be found.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Optional"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "fallback-name",
+            "TypeName": "System.String",
+            "Documentation": "\n            <summary>\n            View to lookup if the view specified by <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.Name\" /> cannot be located.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "FallbackName"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "view-data",
             "TypeName": "Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary",
             "IndexerNamePrefix": "view-data-",
@@ -1442,7 +1487,7 @@
         }
       },
       {
-        "HashCode": 1256927271,
+        "HashCode": -1523997586,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1545,6 +1590,15 @@
           },
           {
             "Kind": "ITagHelper",
+            "Name": "asp-suppress-fallback-integrity",
+            "TypeName": "System.Boolean",
+            "Documentation": "\n            <summary>\n            Boolean value that determines if an integrity hash will be compared with <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper.FallbackSrc\" /> value.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "SuppressFallbackIntegrity"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
             "Name": "asp-append-version",
             "TypeName": "System.Boolean?",
             "Documentation": "\n            <summary>\n            Value indicating if file version should be appended to src urls.\n            </summary>\n            <remarks>\n            A query string \"v\" with the encoded content of the file is added.\n            </remarks>\n        ",
@@ -1586,7 +1640,7 @@
         }
       },
       {
-        "HashCode": -1000172456,
+        "HashCode": -1967900937,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1645,7 +1699,7 @@
         }
       },
       {
-        "HashCode": -842212734,
+        "HashCode": -327282375,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1687,7 +1741,7 @@
         }
       },
       {
-        "HashCode": 1669073941,
+        "HashCode": -1004627680,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1719,7 +1773,7 @@
         }
       },
       {
-        "HashCode": -34383685,
+        "HashCode": -2028198498,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1753,7 +1807,7 @@
         }
       },
       {
-        "HashCode": -389015140,
+        "HashCode": 1852938744,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.SpaServices",
